@@ -23,12 +23,14 @@ pkg install python
 pip install rich aiodns requests
 termux-setup-storage
 
+
+# Les commande pour lancer le script 
+-pkg update && pkg upgrade
+-pkg install python
+-pip install rich aiodns requests
+-termux-setup-storage
+-chmod +x viruskiller.py
+-python viruskiller.py
+
 # viruskiller
-Les commande pour lancer le script 
-pkg update && pkg upgrade
-pkg install python
-pip install rich aiodns requests
-termux-setup-storage
-chmod +x viruskiller.py
-python viruskiller.py
 
